@@ -1,11 +1,11 @@
 <?php
-namespace Rumahdewi;
-use Rumahdewi\httpBuilder;
+namespace rumahdewi;
+use rumahdewi\httpBuilder;
 class Rumahdewi_Client{
-    const TOKEN_URI = 'http://localhost/API/v4/agency/token';
-    const GET_AGENCY_INFO_URI = 'http://localhost/API/v4/agency/agency';
-    const ADD_USER_URI = 'http://localhost/API/v4/agency/agency/action/add_user';
-    const ADD_LISTING_URI = 'http://localhost/API/v4/agency/agency/action/add_listing';
+    const TOKEN_URI = 'https://www.rumahdewi.com/API/v4/agency/token';
+    const GET_AGENCY_INFO_URI = 'https://www.rumahdewi.com/API/v4/agency/agency';
+    const ADD_USER_URI = 'https://www.rumahdewi.com/API/v4/agency/agency/action/add_user';
+    const ADD_LISTING_URI = 'https://www.rumahdewi.com/API/v4/agency/agency/action/add_listing';
     private $clientId;
     protected $httpBuilder;
     protected $accessToken = null;

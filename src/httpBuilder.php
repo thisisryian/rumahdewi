@@ -1,5 +1,5 @@
 <?php
-namespace Rumahdewi;
+namespace rumahdewi;
 class httpBuilder{
     protected $curlHandle;
     protected $responseAs = true;
