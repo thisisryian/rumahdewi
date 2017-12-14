@@ -1,0 +1,16 @@
+{
+    "name": "pmb/Rumahdewi",
+    "description": "Rumahdewi Application",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "PMB",
+            "email": "devsdk@pmberjaya.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"rumahdewi\\": "src"}
+    }
+}
