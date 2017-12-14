@@ -1,5 +1,8 @@
 # Rumahdewi
 
+## Requirements ##
+* [PHP 7.0.0 or higher](http://www.php.net/)
+
 ## Installation ##
 Install this libary through  [composer](https://getcomposer.org).
 
@@ -35,4 +38,4 @@ $client->addListing($token, $params);
 ```
 
 ## Website ##
-Visit our official website <a href="https://www.rumahdewi.com" target="_blank">Rumahdewi.com</a>
+Visit our official website [Rumahdewi.com](https://www.rumahdewi.com/)
